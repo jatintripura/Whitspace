@@ -11,22 +11,34 @@ body {
   font-weight: 400;
   font-size: 18px;
   color: white;
-  background-color: white;
+  background: #ffe492;
+  line-height: 1.7;
 }
 .them-button {
   display: inline-block;
-  background: #4f9cf9;
+  text-decoration: none;
+  background:#4f9cf9;
+  color: white;
   border-radius: 8px;
   padding: 16px 24px !important;
-  margin-left: 24px;
+  transition: 0.3s;
 }
-.them-button img {
-  margin-left: 10px;
+.them-button:hover{
+    background: #ffe492;
+    color: #043873;
+}
+.them-button-two {
+  display: inline-block;
+  background:#ffe492;
+  color: #043873 !important;
+  border-radius: 8px;
+  padding: 16px 24px !important;
 }
 .them-button-1 {
   display: inline-block;
-  color: #043873 !important;
-  background: #ffe492;
+  text-decoration: none;
+  background:#4f9cf9;
+  color: white !important;
   border-radius: 8px;
   padding: 16px 24px !important;
   margin-left: 24px;
@@ -35,26 +47,96 @@ body {
   background-color: #043873;
   padding: 16px 0;
 }
+.header-area .them-button-1{
+    margin-left: 24px;
+
+}
+.header-area .them-button-two{
+    margin-left: 24px;
+}
+.header-area .navbar-toggler{
+    border: none;
+    box-shadow: none;
+}
 .header-area .nav-link {
   color: white;
   font-family: "DM Sans", sans-serif;
   font-weight: 500;
   padding: 16px 24px !important;
 }
+
+/*      
+
+
+
+
+*/
 @media (max-width: 991px) {
-  .them-button {
-    width: 100%;
-    text-align: center;
-    margin-left: 0;
-    margin-top: 15px;
-  }
   .them-button-1 {
     width: 100%;
     text-align: center;
     margin-left: 0;
     margin-top: 15px;
   }
-  .header-area .nav-link {
-  padding: 16px0 !important;
+  .them-button-two {
+    width: 100%;
+    text-align: center;
+    margin-left: 0;
+    margin-top: 15px;
+  }
+  .header-area .them-button-1{
+    margin-left: 0;
+
 }
+.header-area .them-button-two{
+    margin-left: 0;
+}
+  .header-area .nav-link {
+  padding: 16px !important;
+}
+.header-area .nav-link{
+    position: relative;
+}
+.header-area .nav-link:after{
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50);
+
+}
+}
+.hero-area{
+    padding: 140px 0;
+    background-image: url(h-b-img.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-text h3{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 52px;
+line-height: 77px;
+
+}
+.hero-area .them-button{
+    margin-top: 50px;
+}
+@media (max-width:991px) {
+    .hero-area{
+        padding: 80px 0;
+    }
+    .hero-text{
+        text-align: center;
+    }
+    .hero-text h3{
+        font-size: 36px;
+    }
+    .hero-area .them-button{
+        margin-bottom: 50px;
+         width: 100%;
+    }
+    
+    
 }
