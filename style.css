@@ -188,3 +188,23 @@ line-height: 77px;
     }
     
 }
+.Extention-area{
+    padding: 140px 0;
+    background-color: #043873;
+}
+.Extention-area .them-text h3{
+    font-size: 68px;
+    color: white;
+    margin-bottom: 15px;
+}
+ .Extention-area .them-text p{
+    color: white;
+}
+@media (max-width:991px){
+    .Extention-area .them-button{
+        margin-bottom: 50px;
+    }
+    .Extention-area{
+        padding: 80px 0;
+    }
+}
