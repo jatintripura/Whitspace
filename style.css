@@ -288,3 +288,51 @@ line-height: 77px;
 .your-work-area .them-text p{
     color: white;
 }
+@media (max-width:991px){
+    .your-work-area{
+        padding: 80px 0;
+    }
+}
+.data{
+    padding: 140px 0;
+    background-color: white;
+}
+@media (max-width:991px){
+    .data{
+        padding: 80px 0;
+    }
+}
+.sponsor{
+    padding: 140px 0;
+  
+    background-color: white;
+}
+.sponsor .them-text{
+    margin-bottom: 80px;
+}
+.single-sponsor-img img{
+    height: 55px;
+    width: auto;
+}
+@media (max-width:991px){
+    .sponsor{
+        padding-top: 80px;
+        padding-bottom: 30px;
+    }
+    .single-sponsor-img{
+        margin: 50px;
+    }
+}
+.app{
+    padding: 140px 0;
+    background-image: url(img/Element\ \(1\).png);
+    background-position: center;
+    background-size: cover;
+    background-color: #043873;
+}
+.app .them-text h3{
+    color: white;
+}
+.app .them-text p{
+    color: white;
+}
