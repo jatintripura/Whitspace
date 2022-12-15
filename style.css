@@ -66,6 +66,15 @@ body {
   border-radius: 8px;
   padding: 16px 24px !important;
 }
+.them-button-three {
+    display: inline-block;
+    background:white;
+    border: 1px solid #ffe492;
+    color: #043873 !important;
+    border-radius: 8px;
+    padding: 16px 24px !important;
+    text-decoration: none;
+  }
 .them-button-1 {
   display: inline-block;
   text-decoration: none;
@@ -217,4 +226,65 @@ line-height: 77px;
         padding: 80px 0;
     }
 
+}
+.pricing-area{
+    padding: 140px 0;
+    background-color: white;
+}
+.pricing-area .them-text{
+    margin-bottom: 60px;
+}
+.frist-price{
+    color: #212529;
+    border: 1px solid #ffe492;
+    border-radius: 10px;
+    padding: 40px 44px;
+}
+.frist-price h4{
+    font-size: 24px;
+    font-weight: 500;
+
+}
+.frist-price h2{
+    font-size: 36px;
+    font-weight: 700;
+    margin: 15px 0;
+}
+.frist-price ul{
+    margin: 0;padding: 0;
+    margin: 20px 0;
+}
+.frist-price ul li{
+    list-style: none;
+    margin-bottom: 28px;
+}
+.frist-price ul li :last-child{
+    margin: 0;
+}
+.second-price{
+    padding: 80px 44px;
+    background-color: #043873;
+    color: white;
+}
+.second-price h2{
+    color: #ffe492;
+}
+@media (max-width:991px) {
+
+    .pricing-area {
+        padding: 80px 0;
+    }
+    .frist-price{
+        margin-bottom: 30px;
+    }
+}
+.your-work-area{
+    padding: 140px 0;
+    background-color: #043873;
+}
+.your-work-area .them-text h3{
+    color: white;
+}
+.your-work-area .them-text p{
+    color: white;
 }
