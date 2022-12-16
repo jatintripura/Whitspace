@@ -336,3 +336,159 @@ line-height: 77px;
 .app .them-text p{
     color: white;
 }
+@media (max-width:991px){
+    .app{
+        padding: 80px 0;
+    }
+    .app-img{
+        margin-bottom: 50px;
+    }
+}
+.testimonial-area{
+    padding: 140px 0;
+    background-color: white;
+
+}
+.testimonial-area .them-text{
+    margin-bottom: 50px;
+}
+@media (max-width:991px){
+    .testimonial-area {
+        padding: 80px 0;
+    }
+}
+.single-testimonial{
+    background: #4f9cf9;
+    box-shadow: 15px 10px 50px rgba(0, 0, 0, 0.1);
+border-radius: 10px;
+padding: 50px 30px;
+color:white;
+}
+.testimonial-text{
+    border-bottom: 1px solid #212529;
+}
+.testimonial-text img{
+    margin-bottom: 40px;
+    height: 60px;
+    width: auto !important;
+}
+.testimonial-text p{
+    margin-bottom: 25px;
+}
+.testimonial-othor{
+    margin-top: 40px;
+    display: flex;
+}
+.othor-img{
+margin-right: 25px;
+color: white;
+}
+.othor-text h3{
+    font-size: 24px;
+} 
+.othor-text p{
+    margin-bottom: 0;
+}
+.testimonial-area .owl-dots{
+    text-align: center;
+    margin-top: 50px;
+}
+ .testimonial-area .owl-dots button{
+    height: 15px;
+    width: 15px;
+    background-color: #4f9cf9 !important;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+.testimonial-area .owl-dots button.active{
+    background-color: #043873 !important;
+}
+.trial-area{
+    padding: 140px 0;
+    background-color: #043873;
+
+}
+.trial-area h3{
+    font-size: 68px;
+}
+.trial-area p{
+    font-size: 24px;
+}
+.trial-area .them-button{
+    margin: 20px 0;
+}
+.trial-img{
+    margin-top: 40px;
+}
+.trial-img a{
+    margin: 0 20px;
+    text-decoration: none;
+}
+@media (max-width:991px){
+    .trial-area{
+        padding: 80px 0;
+    }
+    .trial-area h3{
+        font-size: 32px;
+    }
+    .trial-area p{
+        font-size: 18px;
+    }
+    .trial-img a{
+        margin: 0;
+        margin-right: 40px;
+    }
+}
+.footer-area{
+    background-color: #043873;
+    border-top: 1px solid #4f9cf9;
+    padding-top: 140px;
+}
+.footer-top{
+    padding-bottom: 60px;
+}
+.footer-about img{
+    margin-bottom: 15px;
+}
+
+
+.footer-link h3{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.footer-link ul{
+    margin: 0;padding: 0;
+}
+.footer-link ul li{
+    list-style: none;
+}
+.footer-link a{
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+.footer-link a:hover{
+    color: #ffe492;
+}
+.footer-contact h3{
+font-size: 28px;
+margin-bottom: 15px;
+} 
+@media (max-width:991px){
+    .footer-top{
+        text-align: center;
+    }
+    .footer-about{
+        margin-bottom: 40px;
+    }
+    .footer-link{
+        margin: 40px 0;
+    }
+    .footer-contact{
+        margin-top: 40px;
+    }
+}
